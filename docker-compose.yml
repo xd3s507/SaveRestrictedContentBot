@@ -13,5 +13,5 @@ sudo docker-compose up --build
       API_HASH: b70bf9ef5b87f66bdbd39968daf33dcf
       BOT_TOKEN: 6500428452:AAETFvY6cUKoze_qMf34C_xzJ5QhnPRQudo 
       SESSION: MIIBCgKCAQEAyMEdY1aR+sCR3ZSJrtztKTKqigvO/vBfqACJLZtS7QMgCGXJ6XIR
-      AUTH: @xn_ik
+      AUTH: 6589150729
       FORCESUB: Save_alshehri_bot
