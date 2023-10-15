@@ -2,13 +2,16 @@ version: "3.3"
 
 services:
   app:
+sudo apt install docker-compose -y
+nano docker-compose.yml
+sudo docker-compose up --build 
     container_name: srcbot
     build: .
     command: bash bash.sh
     environment:
-      API_ID: # Your API HASH from my.telegram.org
-      API_HASH: # Your API ID from my.telegram.org
-      BOT_TOKEN: # Bot token, get it from @BotFather 
-      SESSION: # Pyrogram string session
-      AUTH: # User ID of Bot owner
-      FORCESUB: # Username name of public channel without using '@'
+      API_ID: 21037154
+      API_HASH: b70bf9ef5b87f66bdbd39968daf33dcf
+      BOT_TOKEN: 6500428452:AAETFvY6cUKoze_qMf34C_xzJ5QhnPRQudo 
+      SESSION: MIIBCgKCAQEAyMEdY1aR+sCR3ZSJrtztKTKqigvO/vBfqACJLZtS7QMgCGXJ6XIR
+      AUTH: @xn_ik
+      FORCESUB: Save_alshehri_bot
